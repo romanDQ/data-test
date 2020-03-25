@@ -10,7 +10,11 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'chart.js'
 import 'hchs-vue-charts'
 
+import Chartkick from 'chartkick'
+import VueChartkick from 'vue-chartkick'
+
 Vue.use(window.VueCharts)
+Vue.use(VueChartkick, { Chartkick })
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)

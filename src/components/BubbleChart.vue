@@ -11,7 +11,7 @@
           labels: ['Data'],
           datasets: [
             {
-              label: 'Data One',
+              label: 'Income',
               backgroundColor: '#f87979',
               pointBackgroundColor: 'white',
               borderWidth: 1,

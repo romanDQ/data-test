@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <h1>Demo examples of vue-charts</h1>
+    <h1>vue-charts</h1>
     <div class="columns">
       <div class="column">
         <h3>Line Chart</h3>
@@ -18,7 +18,6 @@
       </div>
       <div class="column">
         <h3>Data Binding Line Chart</h3>
-        <!--Data Binding Line Chart Example-->
 
         <chartjs-line :labels="labels" :data="dataset" :bind="true"></chartjs-line>
         <form @submit.prevent="addData">

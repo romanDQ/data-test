@@ -4,9 +4,9 @@
     <div id="nav">
       <ul>
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/chartjs">vue-chartjs</router-link></li>
-        <li><router-link to="/charts">vue-charts</router-link></li>
-        <li><router-link to="/chartkick">vue-chartkick</router-link></li>
+        <li><router-link to="/chartjs">Vue-chartjs</router-link></li>
+        <li><router-link to="/charts">Vue-charts</router-link></li>
+        <li><router-link to="/chartkick">Vue-chartkick</router-link></li>
       </ul>
     </div>
     <router-view />

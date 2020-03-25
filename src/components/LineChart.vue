@@ -12,7 +12,7 @@
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
           datasets: [
             {
-              label: 'Data One',
+              label: 'Income',
               backgroundColor: '#f87979',
               pointBackgroundColor: 'white',
               borderWidth: 1,

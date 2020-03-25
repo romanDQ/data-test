@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <h1>Demo examples of vue-chartjs</h1>
+    <h1>vue-chartjs</h1>
     <div class="columns">
       <div class="column">
         <h3>Line Chart</h3>
@@ -17,7 +17,7 @@
         <bubble-chart></bubble-chart>
       </div>
       <div class="column">
-        <h3>Reactivity - Live update upon change in datasets</h3>
+        <h3>Reactivity - Live update </h3>
         <reactive :chart-data="datacollection"></reactive>
         <b-button pill variant="primary" @click ="fillData">Randomize</b-button>
       </div>
@@ -57,7 +57,7 @@ methods: {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
       datasets: [
         {
-          label: 'Data One',
+          label: 'Income',
           backgroundColor: '#f87979',
           // Data for the y-axis of the chart
           data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()]
