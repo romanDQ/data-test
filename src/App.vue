@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Navbar/>
     <div id="nav">
       <ul>
         <li><router-link to="/">Home</router-link></li>
@@ -11,6 +12,15 @@
     <router-view />
   </div>
 </template>
+
+<script>
+import Navbar from './components/Navbar'
+export default {
+  components:{
+    Navbar
+  }
+}
+</script>
 
 <style>
 #app {
