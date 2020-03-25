@@ -19,7 +19,7 @@
       <div class="column">
         <h3>Reactivity - Live update upon change in datasets</h3>
         <reactive :chart-data="datacollection"></reactive>
-        <button @click ="fillData">Randomize</button>
+        <b-button pill variant="primary" @click ="fillData">Randomize</b-button>
       </div>
     </div>
   </section>
